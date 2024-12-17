@@ -94,7 +94,7 @@ if len(points) == 4:
 
     pts1 = np.float32(points)  # Tıklanan dört noktayı al
     # Dönüştürülecek yeni köşe noktaları
-    target_width, target_height = 110, 280  # İstediğiniz boyut
+    target_width, target_height = 280, 210  # İstediğiniz boyut
     pts2 = np.float32([[0, 0], [target_width, 0], [target_width, target_height], [0, target_height]])  # Düzgün bir sıralama
 
     # Perspektif dönüşüm matrisini hesapla
